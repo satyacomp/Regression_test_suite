@@ -1,0 +1,19 @@
+LOCAL_URL: "http://localhost:8082/modules/admin"
+DEV_URL: "https://dev-dot-learn-portal-dev.appspot.com/modules/admin"
+USER: "satyanarayana@study.iitm.ac.in"
+PASSWORD: "#Chinna1977"
+COURSE_NAME: "Manual Course"
+CHROME_DRIVER_VERSION: "114.0.5735.90"
+MAJOR_MODULES:
+  Add_Course: 0
+  Course_Content: 1
+  Exam: 0
+  Assessment_Assignment: 0
+  User_Management: 0
+MINOR_MODULES:
+  Background_Jobs: 0
+  BigQuery_Import: 0
+  Cloud_Tasks: 0
+  Datastore_Query: 0
+OTHER_MODULES:
+  Other_Services: 0

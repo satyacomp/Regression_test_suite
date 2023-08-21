@@ -1,0 +1,70 @@
+{
+  "question_type": "0",
+  "questions": [
+    {
+      "type": 0,
+      "question": "What is the memory size double pointer in C",
+      "description": "Double Pointer memory size",
+      "choices": [
+        {
+          "score": 1.0,
+          "text": "16 Bits",
+          "feedback": ""
+        },
+        {
+          "score": 0.0,
+          "text": "8 Bits",
+          "feedback": ""
+        },
+        {
+          "score": 0.0,
+          "text": "32 Bits",
+          "feedback": ""
+        },
+        {
+          "score": 0.0,
+          "text": "64 Bits",
+          "feedback": ""
+        }
+      ],
+      "multiple_selections": false,
+      "version": "1.5",
+      "last_modified": 1677568429.705591
+    },
+    {
+      "version": "1.5",
+      "question": "What is pointers?",
+      "defaultFeedback": "",
+      "all_or_nothing_grading": false,
+      "show_answer_when_incorrect": false,
+      "multiple_selections": false,
+      "multiple_correct": false,
+      "choices": [
+        {
+          "score": 1.0,
+          "text": "Memory reference",
+          "feedback": ""
+        },
+        {
+          "score": 0.0,
+          "text": "Memory value",
+          "feedback": ""
+        },
+        {
+          "score": 0.0,
+          "text": "Boolean value",
+          "feedback": ""
+        },
+        {
+          "score": 0.0,
+          "text": "None of the above",
+          "feedback": ""
+        }
+      ],
+      "description": "This is sample pointer question",
+      "tags": [],
+      "type": 0,
+      "last_modified": 1677494914.559859
+    }
+  ]
+}

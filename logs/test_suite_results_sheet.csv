@@ -1,0 +1,69 @@
+Activity,Assigned to,"User
+(Course Admin/Super User)",Expected Output,Actual Output,"Status
+(Pass/Fail)",Remarks,Status(Pass/Fail)
+Release-1.0,,,,,,,
+Release planning,,,,,,,
+Discussions,,,,,,,
+Understanding each module,,,,,,,
+Run each test module,,,,,,,
+         - Add course,,,,,,,
+             - Add New Course,,,,courses/test_add_course.py::Test_Add_Course_Module::test_add_new_course,,,passed
+             - Add Multiple Courses,,,,courses/test_add_course.py::Test_Add_Course_Module::test_add_multiple_courses,,,passed
+             - Add Sample Course,,,,courses/test_add_course.py::Test_Add_Course_Module::test_add_sample_course,,,passed
+             - Setting Course Availability,,,,courses/test_add_course.py::Test_Add_Course_Module::test_course_availability,,,passed
+         - Add course content,,,,,,,
+             - Add Unit,,,,courses/test_course_content.py::Test_Add_Course_Content::test_addUnit,,,passed
+             - Add MCQs,,,,courses/test_course_content.py::Test_Add_Course_Content::test_add_MCQs,,,passed
+             - Add SAQs,,,,courses/test_course_content.py::Test_Add_Course_Content::test_add_SAQs,,,passed
+             - Add GIFT,,,,courses/test_course_content.py::Test_Add_Course_Content::test_add_GIFT,,,passed
+             - Bulk Download Questions,,,,courses/test_course_content.py::Test_Add_Course_Content::test_bulk_download_questions,,,passed
+             - Bulk Upload Questions,,,,courses/test_course_content.py::Test_Add_Course_Content::test_bulk_upload_questions,,,passed
+             - Add Question Groups,,,,courses/test_course_content.py::Test_Add_Course_Content::test_add_question_groups,,,passed
+             - Bulk Upload Question Groups,,,,courses/test_course_content.py::Test_Add_Course_Content::test_bulk_upload_question_groups,,,passed
+             - Upload HTML/Img Files,,,,courses/test_course_content.py::Test_Add_Course_Content::test_upload_html_img_files,,,passed
+             - Add Labels/Tracks,,,,courses/test_course_content.py::Test_Add_Course_Content::test_add_labels_tracks,,,passed
+         - User Management,,,,,,,
+             - Test Student Profiles,,,,,,,
+             - Test Enroll Students,,,,,,,
+             - Test Bulk Enrollment,,,,,,,
+             - Test Update Student Info,,,,,,,
+             - Test Student Groups,,,,,,,
+             - Test Sync Scores,,,,,,,
+         - Exam,,,,,,,
+             - Test Exam Info,,,,courses/test_exam.py::Test_Exam_Module::test_add_exam_info,,,passed
+             - Test Chat Room Info,,,,courses/test_exam.py::Test_Exam_Module::test_add_chat_info,,,passed
+             - Test Enable Exam Mode,,,,courses/test_exam.py::Test_Exam_Module::test_enable_exam_mode,,,passed
+             - Test Exam QR Code,,,,courses/test_exam.py::Test_Exam_Module::test_exam_QR_code,,,passed
+         - Assessments and Assignments,,,,,,,
+             - Add New Unit,,,,,,,
+             - Add Text Lesson,,,,,,,
+             - Add Video Lesson,,,,,,,
+             - Add PDF Lesson,,,,,,,
+             - Add Link,,,,,,,
+             - Graded Single Assessment,,,,,,,
+             - Graded Multiple Assessment,,,,,,,
+             - Practice Single Assessment,,,,,,,
+             - Practice Multiple Assessment,,,,,,,
+             - Subjective Assignment(Essay_Course Staff_Criteria_Multiple),,,,,,,
+             - Subjective Assignment(Essay_Course Staff_Rubrics_Single),,,,,,,
+             - Subjective Assignment(Essay_Peer Grade_Criteria_Multiple),,,,,,,
+             - Subjective Assignment(File Upload_Peer Grade_Rubrics_Single),,,,,,,
+             - Subjective Assignment(File Upload_Course Staff_Criteria_Single),,,,,,,
+             - Subjective Assignment(File Upload_Course Staff_Rubrics_Multiple),,,,,,,
+             - Programming Assignment Eval Script(nsjail_SQL_Graded),,,,,,,
+             - Programming Assignment Eval Script(nsjail_HTML_Practice),,,,,,,
+             - Programming Assignment TestCases(Python),,,,,,,
+             - Programming Assignment TestCases(Bash),,,,,,,
+             - Programming Assignment TestCases(Java),,,,,,,
+             - Programming Assignment TestCases(Java Script),,,,,,,
+         - Other modules,,,,,,,
+                   - Announcements,,,,,,,
+                   - Course Categories,,,,,,,
+                   - Course Staff,,,,,,,
+                   - Local Chapters,,,,,,,
+                   - Mentors,,,,,,,
+                   - Offline Assignment Scores,,,,,,,
+                   - Downloads,,,,,,,
+Run entire test suite,`,,,,,,
+Release planning,,,,,,,
+Finalize release plan,,,,,,,
